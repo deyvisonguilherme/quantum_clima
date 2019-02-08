@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="swarm" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/swarm/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/swarm/lib" />
+      <root url="file://$PROJECT_DIR$/deps/swarm/src" />
+    </SOURCES>
+  </library>
+</component>

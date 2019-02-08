@@ -1,0 +1,8 @@
+defmodule QuantumClima.Sete do
+  def get_clima_guaruja() do
+    response = HTTPoison.get!("http://apiadvisor.climatempo.com.br/api/v1/forecast/locale/4234/days/15?token=????????????????????????????")
+    response
+    |> Map.get(:body)
+    |> Poison.decode
+  end
+end
